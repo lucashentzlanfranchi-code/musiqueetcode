@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Hentz-Lanfranchi – PPP | Musique & Code</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Particules flottantes -->
+  <div class="particles"></div>
+
+  <!-- HEADER -->
+  <header id="top">
+    <nav>
+      <div class="logo">
+        <span class="gold">Musique</span> &amp; <span class="blue">Code</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#moi">À propos</a></li>
+        <li><a href="#mmi">Pourquoi MMI</a></li>
+        <li><a href="#musique">Parcours musical</a></li>
+        <li><a href="#projet">Projet pro</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#passions">Passions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" onclick="toggleMenu()"><i class="fa fa-bars"></i></button>
+    </nav>
+    <ul class="nav-mobile" id="navMobile">
+      <li><a href="#accueil" onclick="toggleMenu()">Accueil</a></li>
+      <li><a href="#moi" onclick="toggleMenu()">À propos</a></li>
+      <li><a href="#mmi" onclick="toggleMenu()">Pourquoi MMI</a></li>
+      <li><a href="#musique" onclick="toggleMenu()">Parcours musical</a></li>
+      <li><a href="#projet" onclick="toggleMenu()">Projet pro</a></li>
+      <li><a href="#competences" onclick="toggleMenu()">Compétences</a></li>
+      <li><a href="#passions" onclick="toggleMenu()">Passions</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="accueil">
+      <div class="hero-text reveal">
+
+        <div class="badge"><i class="fa fa-graduation-cap"></i> Étudiant BUT MMI – 1ère année</div>
+
+        <h1>
+          <span class="gold">Musique</span><br>
+          &amp; <span class="blue">Code</span>
+        </h1>
+
+        <div class="subtitle">
+          Un parcours unique entre saxophone, créativité et développement web
+        </div>
+
+        <p>
+          Je suis <strong>Lucas Hentz-Lanfranchi</strong>, étudiant en 1ère année de BUT MMI.
+          Saxophoniste depuis plusieurs années, formé au conservatoire, je mets aujourd'hui
+          ma sensibilité artistique au service du web. Mon ambition est de devenir
+          <strong>développeur front-end / designer UI</strong>, en créant des interfaces
+          belles, intuitives et accessibles. Ce site est à la fois mon PPP et le reflet
+          de qui je suis.
+        </p>
+
+        <div class="buttons">
+          <a class="btn btn-gold" href="#musique"><i class="fa fa-music"></i> Mon parcours musical</a>
+          <a class="btn btn-blue" href="#projet"><i class="fa fa-code"></i> Mon projet pro</a>
+        </div>
+
+      </div>
+
+      <div class="hero-card reveal-right">
+        <div class="glass">
+          <h2><i class="fa fa-user gold"></i> En bref</h2>
+          <ul class="quick-facts">
+            <li><i class="fa fa-map-marker-alt blue"></i> France</li>
+            <li><i class="fa fa-graduation-cap gold"></i> BUT MMI – 1ère année</li>
+            <li><i class="fa fa-saxophone blue"></i> Saxophone depuis 2018</li>
+            <li><i class="fa fa-music gold"></i> Conservatoire &amp; concerts</li>
+            <li><i class="fa fa-laptop-code blue"></i> Futur dev front-end / UI designer</li>
+            <li><i class="fa fa-basketball-ball gold"></i> Passionné de basket</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section id="moi">
+      <h2 class="section-title reveal"><span class="gold">À</span> propos de moi</h2>
+
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <p>
+            Je m'appelle <strong>Lucas Hentz-Lanfranchi</strong> et je suis actuellement en
+            <strong>1ère année de BUT Métiers du Multimédia et de l'Internet (MMI)</strong>.
+            Depuis mon plus jeune âge, j'ai toujours été attiré par deux univers en apparence opposés :
+            la musique et la technologie. Aujourd'hui, grâce à MMI, je comprends que ces deux mondes
+            se rejoignent davantage qu'on ne le croit : l'un et l'autre demandent de la rigueur,
+            de la créativité, de la patience et le goût du travail bien fait.
+          </p>
+          <p>
+            Petit, je voulais devenir mécanicien — j'aimais démonter les choses pour comprendre comment
+            elles fonctionnent. Aujourd'hui, c'est le même instinct qui me pousse vers le développement
+            web : j'aime décortiquer le code, comprendre la logique derrière chaque page, chaque animation,
+            chaque interaction. Ce site en est la preuve concrète.
+          </p>
+          <p>
+            En dehors des cours, je joue du saxophone, je pratique le basket, et j'explore régulièrement
+            de nouveaux outils numériques pour progresser dans ma maîtrise du web.
+          </p>
+        </div>
+
+        <div class="about-stats reveal-right">
+          <div class="stat-card">
+            <div class="stat-number gold">2018</div>
+            <div class="stat-label">Début du saxophone</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number blue">BUT</div>
+            <div class="stat-label">Formation actuelle MMI</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number gold">Front</div>
+            <div class="stat-label">Spécialité visée</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number blue">🎷🏀💻</div>
+            <div class="stat-label">Mes univers</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== MMI ===== -->
+    <section id="mmi">
+      <h2 class="section-title reveal">
+        <span class="gold">Pourquoi</span> MMI ?
+      </h2>
+
+      <p class="section-intro reveal">
+        Choisir MMI n'était pas un hasard. C'est une formation qui m'a semblé unique dès le départ :
+        elle allie technique, créativité et communication, trois piliers qui correspondent
+        exactement à ce que je veux faire dans ma vie professionnelle.
+        Voici les raisons concrètes de ce choix.
+      </p>
+
+      <div class="grid">
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-layer-group gold"></i></div>
+          <h3>Une formation polyvalente</h3>
+          <p>
+            MMI m'offre la possibilité de toucher à de nombreux domaines du numérique :
+            création graphique, communication visuelle, audiovisuel, développement web et programmation.
+            Cette polyvalence est précieuse dans un secteur où les profils hybrides sont très recherchés.
+            Je peux aussi bien concevoir une maquette sur Figma que coder la page HTML/CSS correspondante.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-tools blue"></i></div>
+          <h3>L'apprentissage par le projet</h3>
+          <p>
+            Ce qui me plaît le plus dans MMI, c'est l'approche concrète. On ne fait pas que lire des cours :
+            on crée de vrais supports numériques, on travaille en équipe sur des projets réels.
+            Cette pédagogie me motive davantage, car je vois rapidement le résultat de ce que j'apprends.
+            Ce site PPP en est lui-même un exemple concret : je l'ai entièrement conçu et codé.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-star gold"></i></div>
+          <h3>Mes atouts pour MMI</h3>
+          <p>
+            Je suis à l'aise avec le code (HTML, CSS, JavaScript), maîtrise d'Illustrator,
+            et j'ai un sens naturel de l'esthétique développé à travers la musique et les arts.
+            Mon parcours au conservatoire m'a aussi appris la rigueur, la concentration
+            et la persévérance — des qualités essentielles pour progresser en MMI.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-users blue"></i></div>
+          <h3>Un secteur d'avenir</h3>
+          <p>
+            Le numérique est l'un des secteurs les plus dynamiques du marché du travail.
+            Les métiers du web, du design UX et de la communication digitale sont en constante évolution.
+            Choisir MMI, c'est choisir une formation qui prépare vraiment aux réalités du terrain,
+            avec des débouchés variés et une forte employabilité.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-palette gold"></i></div>
+          <h3>Créativité et technique réunies</h3>
+          <p>
+            J'ai toujours eu du mal à choisir entre l'artistique et le technique.
+            MMI m'a montré que cette dichotomie est artificielle : un bon développeur front-end
+            est aussi un créatif, et un bon designer doit comprendre les contraintes techniques.
+            MMI est la formation idéale pour développer ces deux facettes en même temps.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon"><i class="fa fa-lightbulb blue"></i></div>
+          <h3>Un choix mûrement réfléchi</h3>
+          <p>
+            Ce n'est pas la facilité ou le hasard qui m'ont guidé vers MMI.
+            Après m'être renseigné sur les différentes formations post-bac, j'ai compris
+            que MMI correspondait le mieux à mon profil : curieux, créatif, passionné de numérique,
+            et soucieux d'apporter une réelle valeur ajoutée à travers mon travail.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PARCOURS MUSICAL ===== -->
+    <section id="musique">
+      <h2 class="section-title reveal">
+        <span class="blue">Mon parcours</span> musical
+      </h2>
+
+      <p class="section-intro reveal">
+        La musique est bien plus qu'un loisir pour moi. Depuis que j'ai commencé le saxophone en 2018,
+        elle a structuré ma façon d'apprendre, de travailler et de créer. Formé au conservatoire,
+        j'ai traversé des moments intenses — concerts, examens — qui ont profondément forgé mon caractère.
+      </p>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa fa-music"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2018</div>
+            <h3>Les premiers sons</h3>
+            <p>
+              J'ai découvert le saxophone à l'âge de 12 ans. Ce qui m'a d'abord attiré,
+              c'est son timbre chaud et expressif, très présent dans le jazz et la soul.
+              Dès les premières semaines, j'ai compris que cet instrument me demanderait du travail,
+              mais j'étais prêt. J'ai intégré le conservatoire peu après et j'ai commencé
+              un apprentissage sérieux avec un professeur qualifié.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot blue-dot"><i class="fa fa-school"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Conservatoire</div>
+            <h3>Une formation rigoureuse</h3>
+            <p>
+              Le conservatoire m'a imposé une discipline que je ne regretterai jamais.
+              Les cours hebdomadaires, le solfège, les pratiques collectives et les évaluations régulières
+              m'ont appris à m'organiser, à progresser par étapes et à ne jamais baisser les bras
+              face à la difficulté. C'est au conservatoire que j'ai compris la valeur du travail régulier
+              sur le long terme — une leçon que j'applique aujourd'hui dans mes études en MMI.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa fa-certificate"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Examens</div>
+            <h3>Passer les épreuves</h3>
+            <p>
+              Les examens au conservatoire ne sont pas anodins : ils demandent une préparation
+              minutieuse, une gestion du stress solide et une capacité à se surpasser le jour J.
+              J'ai passé plusieurs épreuves au fil des années, et chacune a été une étape importante
+              dans ma progression. Ces expériences m'ont appris à faire face à la pression
+              et à livrer le meilleur de moi-même même dans les moments difficiles.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot blue-dot"><i class="fa fa-microphone-alt"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Concerts</div>
+            <h3>Jouer en public</h3>
+            <p>
+              Monter sur scène est une expérience à part entière. J'ai eu la chance de jouer
+              lors de plusieurs concerts publics, seul ou en groupe. Ces moments m'ont appris
+              la gestion du trac, la concentration en conditions réelles et le plaisir
+              de partager la musique avec un public. Chaque concert est une montée d'adrénaline
+              unique qui renforce la confiance en soi et le sens de la performance.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fa fa-link"></i></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Aujourd'hui</div>
+            <h3>La musique et le web, même combat</h3>
+            <p>
+              Je vois de plus en plus de parallèles entre la musique et le développement web.
+              Dans les deux cas, il faut maîtriser des règles fondamentales tout en y apportant
+              sa touche personnelle. La rigueur du saxophoniste qui répète inlassablement un passage
+              difficile, c'est la même que celle du développeur qui débogue son code jusqu'à ce
+              qu'il soit parfait. La musique m'a donné les bases d'un état d'esprit que j'applique
+              maintenant à chaque projet numérique.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== PROJET PRO ===== -->
+    <section id="projet">
+      <h2 class="section-title reveal">
+        <span class="gold">Mon projet</span> professionnel
+      </h2>
+
+      <p class="section-intro reveal">
+        Mon objectif est clair : devenir <strong>développeur front-end / designer UI</strong>.
+        Ce choix est le fruit d'une réflexion sincère sur ce qui me passionne et ce dans quoi je suis
+        naturellement bon. Créer des interfaces belles et fonctionnelles, c'est mon ambition.
+      </p>
+
+      <div class="project">
+
+        <div class="project-box reveal">
+          <div class="project-icon"><i class="fa fa-bullseye gold"></i></div>
+          <h3>Objectif : développeur front-end &amp; UI designer</h3>
+          <p>
+            Je veux travailler sur la partie visible du web : les interfaces que les utilisateurs voient,
+            touchent et ressentent. Le développement front-end, c'est l'alliance parfaite entre
+            la logique du code et la sensibilité du design. C'est ce mélange qui me fait vibrer,
+            exactement comme la musique associe technique et émotion.
+          </p>
+          <p style="margin-top:14px">
+            À terme, j'aimerais travailler dans une agence web créative ou en entreprise,
+            sur des projets ambitieux qui ont un vrai impact visuel et une belle expérience utilisateur.
+          </p>
+          <div class="skills">
+            <span class="skill"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill"><i class="fa fa-pen-nib"></i> Illustrator</span>
+            <span class="skill"><i class="fa fa-vector-square"></i> Figma</span>
+          </div>
+        </div>
+
+        <div class="project-box reveal">
+          <div class="project-icon"><i class="fa fa-road blue"></i></div>
+          <h3>Mon plan d'action</h3>
+          <p>
+            Pour atteindre mon objectif, j'ai défini un plan concret en plusieurs étapes :
+          </p>
+          <ul class="plan-list">
+            <li><i class="fa fa-check-circle gold"></i> <strong>Réussir mon BUT MMI</strong> — en m'impliquant dans tous les projets pratiques</li>
+            <li><i class="fa fa-check-circle gold"></i> <strong>Renforcer mes compétences web</strong> — via des projets personnels et des tutoriels en ligne</li>
+            <li><i class="fa fa-circle blue-check"></i> <strong>Faire un ou plusieurs stages</strong> — pour découvrir le monde professionnel réel</li>
+            <li><i class="fa fa-circle blue-check"></i> <strong>Continuer en licence pro ou master</strong> — en développement web ou UX design</li>
+            <li><i class="fa fa-circle blue-check"></i> <strong>Envisager l'alternance</strong> — pour allier expérience et formation</li>
+          </ul>
+        </div>
+
+        <div class="project-box reveal">
+          <div class="project-icon"><i class="fa fa-university gold"></i></div>
+          <h3>Poursuite d'études envisagée</h3>
+          <p>
+            Après le BUT MMI, plusieurs chemins s'offrent à moi. Je pense notamment à :
+          </p>
+          <ul class="plan-list">
+            <li><i class="fa fa-angle-right gold"></i> Une <strong>licence professionnelle</strong> en développement web ou webdesign</li>
+            <li><i class="fa fa-angle-right gold"></i> Un <strong>master en UX design</strong> ou interaction design</li>
+            <li><i class="fa fa-angle-right gold"></i> Une <strong>école spécialisée</strong> (Gobelins, HETIC, École Multimédia…)</li>
+            <li><i class="fa fa-angle-right gold"></i> Une <strong>formation en alternance</strong> pour entrer rapidement dans le monde du travail</li>
+          </ul>
+          <p style="margin-top:14px;color:#d7d1c7">
+            Mon choix final dépendra de mes expériences en MMI et des opportunités
+            qui se présenteront au fil de mes stages et projets.
+          </p>
+        </div>
+
+        <div class="project-box reveal">
+          <div class="project-icon"><i class="fa fa-heart blue"></i></div>
+          <h3>Pourquoi ce métier me ressemble</h3>
+          <p>
+            Tout comme en musique, le développement front-end demande de la précision, de la répétition
+            et une quête constante de perfection. Un bouton mal aligné, c'est une fausse note.
+            Une animation bien dosée, c'est une mélodie fluide. Je veux créer des expériences web
+            qui touchent les gens, qui les surprennent et qui leur donnent envie de rester.
+          </p>
+          <p style="margin-top:14px;color:#d7d1c7">
+            Ce n'est pas simplement un choix de carrière — c'est une vocation qui réunit
+            tout ce que j'aime : créer, coder, imaginer, et partager.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== COMPÉTENCES ===== -->
+    <section id="competences">
+      <h2 class="section-title reveal">
+        <span class="blue">Mes</span> compétences
+      </h2>
+
+      <p class="section-intro reveal">
+        Voici un aperçu de mes compétences actuelles, acquises à travers mes cours en MMI,
+        mes projets personnels et mes années de pratique musicale.
+        Ces niveaux reflètent honnêtement où j'en suis aujourd'hui.
+      </p>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3><i class="fa fa-code gold"></i> Développement web</h3>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <span>HTML / CSS</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>JavaScript</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:50%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Git / GitHub</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:45%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fa fa-palette blue"></i> Design graphique</h3>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <span>Adobe Illustrator</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:65%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Figma / maquettage</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:40%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>UI Design</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:55%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fa fa-music gold"></i> Musique</h3>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <span>Saxophone</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:75%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Solfège</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:60%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Pratique scénique</span>
+              <div class="bar"><div class="bar-fill gold-bar" style="--w:65%"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><i class="fa fa-brain blue"></i> Savoir-être</h3>
+          <div class="skill-bar-group">
+            <div class="skill-bar-item">
+              <span>Rigueur &amp; organisation</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Créativité</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:85%"></div></div>
+            </div>
+            <div class="skill-bar-item">
+              <span>Travail en équipe</span>
+              <div class="bar"><div class="bar-fill blue-bar" style="--w:70%"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== PASSIONS ===== -->
+    <section id="passions">
+      <h2 class="section-title reveal">
+        <span class="blue">Mes</span> passions
+      </h2>
+
+      <p class="section-intro reveal">
+        En dehors des cours, je m'épanouis à travers trois grandes passions qui nourrissent
+        ma créativité, mon esprit d'équipe et ma curiosité intellectuelle.
+        Ces activités ne sont pas anodines : elles contribuent directement à qui je suis
+        et à la façon dont j'aborde mes projets.
+      </p>
+
+      <div class="grid">
+
+        <article class="card reveal">
+          <div class="card-icon big-icon">🎷</div>
+          <h3>Le saxophone</h3>
+          <p>
+            Le saxophone est ma première passion, celle qui m'a le plus construit.
+            Depuis 2018, je pratique cet instrument au conservatoire avec régularité.
+            J'aime particulièrement le jazz, la soul et les musiques du monde,
+            des genres qui laissent une grande place à l'improvisation et à l'expression personnelle.
+            Le saxophone m'a appris à écouter, à m'adapter, à ressentir la musique
+            plutôt que de simplement la jouer — une dimension que j'essaie de retrouver
+            dans mes créations web.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon big-icon">🏀</div>
+          <h3>Le basket</h3>
+          <p>
+            Le basket est une passion que je vis intensément. Ce sport collectif m'a enseigné
+            des valeurs fondamentales : l'esprit d'équipe, la communication, la stratégie
+            et le dépassement de soi. Sur un terrain, tout le monde doit jouer son rôle pour
+            que l'équipe gagne — exactement comme dans un projet web réussi.
+            Le basket m'aide aussi à décompresser, à rester actif et à maintenir un équilibre
+            entre vie intellectuelle et physique.
+          </p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon big-icon">💻</div>
+          <h3>La création numérique</h3>
+          <p>
+            Le développement web et le design sont devenus une vraie passion, pas seulement
+            une filière d'études. J'aime passer du temps à explorer de nouvelles techniques CSS,
+            à tester des animations, à chercher comment rendre une interface plus intuitive
+            et plus belle. Je me forme régulièrement en regardant des tutoriels, en lisant
+            des articles de design et en reproduisant des projets pour m'améliorer.
+            Coder ce site PPP a été un réel plaisir créatif.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <h2 class="section-title reveal">
+        <span class="gold">Me</span> contacter
+      </h2>
+
+      <p class="section-intro reveal">
+        Tu es recruteur, professeur, ou tu veux simplement échanger autour du développement web,
+        de la musique ou du design ? N'hésite pas à me contacter. Je suis ouvert à toute opportunité :
+        stage, alternance, collaboration sur un projet créatif ou simple discussion.
+      </p>
+
+      <div class="contact-grid reveal">
+
+        <a class="contact-card" href="mailto:lucas.hentzlanfranchi@gmail.com">
+          <i class="fa fa-envelope gold"></i>
+          <h3>Email</h3>
+          <p>lucas.hentzlanfranchi@gmail.com</p>
+        </a>
+
+        <div class="contact-card">
+          <i class="fa fa-graduation-cap blue"></i>
+          <h3>Formation</h3>
+          <p>BUT MMI – 1ère année</p>
+        </div>
+
+        <div class="contact-card">
+          <i class="fa fa-music gold"></i>
+          <h3>Disponibilité</h3>
+          <p>Ouvert aux stages &amp; alternances</p>
+        </div>
+
+      </div>
+
+      <div class="buttons reveal" style="justify-content:center; margin-top:40px">
+        <a class="btn btn-gold" href="mailto:lucas.hentzlanfranchi@gmail.com">
+          <i class="fa fa-paper-plane"></i> Envoyer un mail
+        </a>
+        <a class="btn btn-blue" href="#accueil">
+          <i class="fa fa-arrow-up"></i> Retour en haut
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="logo" style="margin-bottom:12px">
+        <span class="gold">Musique</span> &amp; <span class="blue">Code</span>
+      </div>
+      <p>Lucas Hentz-Lanfranchi — Étudiant BUT MMI 1ère année</p>
+      <p style="margin-top:8px; font-size:0.85rem; color:#888">
+        PPP – Projet Personnel et Professionnel &nbsp;|&nbsp; Site entièrement codé en HTML &amp; CSS
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Menu mobile
+    function toggleMenu() {
+      const m = document.getElementById('navMobile');
+      m.classList.toggle('open');
+    }
+
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal, .reveal-right');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+
+    // Barres de compétences animées
+    const bars = document.querySelectorAll('.bar-fill');
+    const barObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.width = e.target.style.getPropertyValue('--w');
+          barObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    bars.forEach(b => { b.style.width = '0%'; barObserver.observe(b); });
+  </script>
+
+</body>
+</html>
